@@ -14,5 +14,5 @@ $ git config --global user.email johndoe@example.com
 Consider setting up these aliases for your convenience:
 ```bash
 $ git config --global alias.at "status"
-$ git config --global alias.logg "log --graph --decorate --oneline"
+$ git config --global alias.logg 'log --graph --format="%C(auto)%h%d %s %Cgreen@%Creset{%ar}"'
 ```
